@@ -1,7 +1,8 @@
 header, main{
     margin-top: 0.8rem;
-    
-    border-radius: 50px;
+}
+section{
+    border-radius: 30px;
 }
 label{
     color: whitesmoke;
