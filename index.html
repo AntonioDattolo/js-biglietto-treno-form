@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="container bg-primary text-center">
+            <div class="col-10 p-1 offset-1">
+                <h1>
+                    <a class="text-white text-decoration-none" href="http://">Boolea-train</a>
+                </h1>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <section class="container bg-secondary d-flex">
+            <div class="col-7 my-5 text-center">
+                <form>
+                    <div class="mb-3 my-3">
+                      <label  class="form-label" for="km-input">How many kilometers will the passenger have to travel?</label>
+                      <input type="number" min="1" max="115" class="form-control" id="how-km" name="km-input">
+                    </div>
+                    <div class="mb-3 my-3">
+                      <label class="form-label" for="age-input">What is the age of the passenger?</label>
+                      <input type="number" min="1" max="115" class="form-control" id="hm-years" name="age-input">
+                    </div>
+                    <input class="btn btn-primary" type="button"  value="Submit" onclick="elaborated()"></input>
+                </form>
+            </div>
+            <div class="col-4 offset-1 my-5 ">
+                <div class="card" style="width: 18rem;">
+                    <img class="mx-4 w-75 col-10" src="https://static.vecteezy.com/ti/vettori-gratis/p3/27304739-prenotazione-biglietto-su-treno-piatto-monocromatico-isolato-vettore-oggetto-pianificazione-viaggio-modificabile-nero-e-bianca-linea-arte-disegno-semplice-schema-individuare-illustrazione-per-ragnatela-grafico-design-vettoriale.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center ">
+                      <h5 class="card-title">Your Ticket :</h5>
+                      <p class="card-text"><span class="badge text-bg-success fs-2 text" value="il prezzo è"  id="load"></span></p>
+                      <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

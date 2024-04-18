@@ -1,0 +1,11 @@
+header, main{
+    margin-top: 0.8rem;
+    
+    border-radius: 50px;
+}
+label{
+    color: whitesmoke;
+}
+input{
+    margin: 1.3rem 0;
+}
